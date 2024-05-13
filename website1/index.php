@@ -16,6 +16,11 @@
     <button type="submit">Submit</button>
   </form>
 
+  <?= "<h2>Hello there</h2>" ?>
+
+  <?php
+  echo "<h2>Hello there</h2>";
+  ?>
 
 </body>
 
