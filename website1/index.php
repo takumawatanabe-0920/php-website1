@@ -19,8 +19,14 @@
   <?= "<h2>Hello there</h2>" ?>
 
   <?php
-  echo "<h2>Hello there</h2>";
+  $expression = true;
   ?>
+
+  <?php if ($expression == true) : ?>
+    This will show if the expression is true.
+  <?php else : ?>
+    Otherwise this will show.
+  <?php endif; ?>
 
 </body>
 
